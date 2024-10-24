@@ -1,0 +1,22 @@
+//Find sum of all odd numbers from 1 to N
+package com.dsa.basics;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Sum_of_Odd_Nums_4 {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the range till you want to check even_odd value");
+		int num = s.nextInt();
+		ArrayList<Integer> arraylist = new ArrayList<Integer>();
+		for (int i = 1; i <= num; i++) {
+			if (i % 2 == 0)
+				arraylist.add(i);
+
+		}
+		System.out.println(arraylist);
+	}
+
+}

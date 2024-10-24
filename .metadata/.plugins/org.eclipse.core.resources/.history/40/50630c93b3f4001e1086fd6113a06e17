@@ -1,0 +1,21 @@
+package com.dsa.numberTheories;
+
+public class PrimeNumber_1 {
+
+	public static void main(String[] args) {
+		int n = 15;
+		boolean val = primeNumber(n);
+		System.out.println("the given number is Prime_number :"+val);
+	}
+
+	private static boolean primeNumber(int n) {
+		if(n==1)
+			return false;
+		for(int i = 2; i<n ; i++) {
+			if(n%i == 0) 
+				return false;
+		}
+		return true;
+	}
+
+}

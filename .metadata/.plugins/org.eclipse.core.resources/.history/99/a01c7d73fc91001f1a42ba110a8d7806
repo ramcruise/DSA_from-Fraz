@@ -1,0 +1,10 @@
+package com.dsa.basics;
+
+public class Valid_Triangle_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

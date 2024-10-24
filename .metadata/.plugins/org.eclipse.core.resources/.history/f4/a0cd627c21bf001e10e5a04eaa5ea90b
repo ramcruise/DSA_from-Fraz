@@ -1,0 +1,9 @@
+package com.java.Java8Features;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

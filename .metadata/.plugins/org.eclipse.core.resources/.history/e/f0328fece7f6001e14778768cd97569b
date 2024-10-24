@@ -1,0 +1,10 @@
+package com.dsa.maths;
+
+public class StrangeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

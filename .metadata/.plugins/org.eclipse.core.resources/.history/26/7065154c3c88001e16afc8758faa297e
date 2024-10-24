@@ -1,0 +1,5 @@
+package com.java.fundamentals;
+
+public class Child extends Parent {
+
+}

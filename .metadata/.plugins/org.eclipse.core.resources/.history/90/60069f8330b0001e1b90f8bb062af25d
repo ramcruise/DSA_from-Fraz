@@ -1,0 +1,21 @@
+package com.java.oops;
+
+public class Child extends Parent{
+
+	Child(){
+		System.out.println("Child class constructor");
+	}
+	
+	public static void main(String[] args) {
+		Child ch = new Child();
+		System.out.println("child class is executing");
+		String s1 = "Java";
+		String s2 = s1.concat("Rules").toUpperCase().substring(0, 5);
+		System.out.println(s2);
+	}
+	
+	
+	@Override
+	public void methodOne() {};
+	
+}

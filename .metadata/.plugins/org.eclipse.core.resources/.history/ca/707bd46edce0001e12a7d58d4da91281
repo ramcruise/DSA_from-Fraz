@@ -1,0 +1,57 @@
+package com.dsa.linkedList;
+
+public class MyLinkedList_707 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+class MyLinkedList {
+	Node head;
+	int length;
+    public MyLinkedList() {
+        head = null;
+        length = 0;
+    }
+    
+    public int get(int index) {
+    	
+		return 0;
+        
+    }
+    
+    public void addAtHead(int val) {
+    	Node newHead = new Node(val);
+    	newHead.next = this.head;
+    	
+    	this.head = newHead;
+    	this.length += 1;
+        
+    }
+    
+    public void addAtTail(int val) {
+        
+    }
+    
+    public void addAtIndex(int index, int val) {
+        
+    }
+    
+    public void deleteAtIndex(int index) {
+        
+    }
+}
+
+/**
+ * Your MyLinkedList object will be instantiated and called as such:
+ * MyLinkedList obj = new MyLinkedList();
+ * int param_1 = obj.get(index);
+ * obj.addAtHead(val);
+ * obj.addAtTail(val);
+ * obj.addAtIndex(index,val);
+ * obj.deleteAtIndex(index);
+ */

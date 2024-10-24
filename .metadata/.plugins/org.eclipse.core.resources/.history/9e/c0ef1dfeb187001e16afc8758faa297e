@@ -1,0 +1,13 @@
+package com.java.fundamentals;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		int String = 10;
+		System.out.println(String);
+		boolean b = true;
+		int[] arr =new int[8];
+		System.out.println(arr[0]);
+	}
+
+}

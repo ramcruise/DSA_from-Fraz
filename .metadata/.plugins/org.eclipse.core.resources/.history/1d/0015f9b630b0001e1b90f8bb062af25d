@@ -1,0 +1,24 @@
+package com.java.oops;
+
+public class Child extends Parent{
+
+	Child(){
+		System.out.println("Child class constructor");
+	}
+	
+	public static void main(String[] args) {
+		Child ch = new Child();
+		Parent p = new Parent();
+		
+		Parent p1 = new Child();
+		p1.methodOne();
+		
+	}
+	
+	
+	@Override
+	public void methodOne() {
+		System.out.println("child class methodOne()");
+	};
+	
+}

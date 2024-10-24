@@ -1,0 +1,12 @@
+package com.java.oops;
+
+public class Parent {
+	/*
+	 * private Parent(){
+	 * 
+	 * }
+	 */
+	public void methodOne() {
+		System.out.println("hi...methodOne()");
+	}
+}

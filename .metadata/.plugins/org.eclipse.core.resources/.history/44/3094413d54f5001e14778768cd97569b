@@ -1,0 +1,14 @@
+package com.dsa.maths;
+//find smalletst prime factor
+public class SPF {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 30;
+		int[] spf = primeSieve(n);
+		for(int i=2; i<=n; i++) {
+			System.out.println(i + " "+spf[i]);
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.dsa.basics;
+
+public class Find_Max_of_3_Integers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.java.oops;
+
+public class TypeCastinTest {
+
+	public static void main(String[] args) {
+		Object ob = new String("Ramkumar");
+		System.out.println(ob);
+	}
+
+}

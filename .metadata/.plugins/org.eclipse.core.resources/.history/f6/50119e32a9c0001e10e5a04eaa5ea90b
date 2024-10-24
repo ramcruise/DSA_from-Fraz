@@ -1,0 +1,5 @@
+package com.java.Java8Features;
+
+public interface Sayable {
+
+}

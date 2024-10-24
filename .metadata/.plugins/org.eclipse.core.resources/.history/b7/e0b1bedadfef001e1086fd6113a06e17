@@ -1,0 +1,13 @@
+package com.dsa.numberTheories;
+
+import java.util.Arrays;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		int[] arr = {1,2,3,4,5,6,8};
+		Arrays.fill(arr, 2,5, 1);
+		System.out.println(Arrays.toString(arr));
+	}
+
+}

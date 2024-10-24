@@ -1,2 +1,2 @@
-# DSA_from-Fraz
+# DSA_from_Fraz
 improving logical skills

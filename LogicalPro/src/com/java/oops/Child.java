@@ -7,16 +7,14 @@ public class Child extends Parent{
 	}
 	
 	public static void main(String[] args) {
-		Child ch = new Child();
-		Parent p = new Parent();
+		//Child ch = new Child();
+		//Parent p = new Parent();
 		
 		Parent p1 = new Child();
 		p1.methodOne();
 		
 	}
-	
-	
-	
+		
 	public void methodOne() {
 		System.out.println("child class methodOne()");
 	};

@@ -1,5 +1,7 @@
 package com.java.Java8Features;
 
+import com.java.Java8Features.functionalInterface.Interf2;
+
 public class TestInterf2 {
 	
 	public void m2(int i) {

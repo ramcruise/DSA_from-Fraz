@@ -1,5 +1,7 @@
 package com.java.Java8Features;
 
+import com.java.Java8Features.functionalInterface.InterfStatic;
+
 public class TestStatic implements InterfStatic{
 	
 //	public static void sum(int a,int b) {

@@ -1,5 +1,7 @@
 package com.java.Java8Features;
 
+import com.java.Java8Features.functionalInterface.MethodReference;
+
 public class TestMethodref {
 
 	public static void main(String[] args) {

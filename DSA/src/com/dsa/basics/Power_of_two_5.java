@@ -22,6 +22,7 @@ public class Power_of_two_5 {
 		} else
 			System.out.println("Given number is power of 2 : " + flag);
 
+		s.close();
 	}
 
 }

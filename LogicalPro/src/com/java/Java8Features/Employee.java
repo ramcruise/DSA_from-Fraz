@@ -36,6 +36,11 @@ public class Employee {
 	public void setDevices(Set<String> devices) {
 		this.devices = devices;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", devices=" + devices + "]";
+	}
 	
 	
 }

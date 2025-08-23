@@ -10,6 +10,7 @@ public class Best_Time_to_Buy_and_Sell {
 
 	private static int bestTimeToBuyAndSell(int[] prices) {
 		int minPrice = Integer.MAX_VALUE;
+		System.out.println(minPrice);
 		int maxProfit = 0;
 		for(int i=0;i<prices.length;i++) {
 			if(prices[i]<minPrice) {
